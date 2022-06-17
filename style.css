@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 15px;
+    background-color: #e5e5e5;
+    
+}
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    }
+    
+h2{
+    color: #e5e5e5;
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 20px 20px 20px 0px;  
+}
+p{
+    color: #c7c7c7;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0px 0px 50px 0px;
+}
+.first-head{
+    background-color: #f19500;
+    padding: 40px; 
+}
+.second-head{
+    background-color: #008787;
+    padding: 40px; 
+}
+.third-head{
+    background-color: #004040; 
+    padding: 40px; 
+}
+.btn{
+    color: #e5e5e5;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid White;
+    border-radius: 100px;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+.general{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+}
+@media screen and (max-width: 375px) body{ main h2 p general btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-size: cover; 
+    height: 100vh;
+}
+@media screen and (max-width: 1440px) body{ main h2 p general btn{
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    width: 100%;  
+    margin: auto;
+    align-items: center;
+    background-size: cover; 
+    height: 100vh;
+}
